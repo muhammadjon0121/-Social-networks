@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #4d515d;
+    font-family: 'Roboto',sans-serif;
+}
+.item-background {
+    background: url(./img/side.jpg) no-repeat 50%;
+    float: left;
+    width: 38%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+
+.main-box {
+    width: 1050px;
+    height: 630px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    box-shadow: 0px 2px 4px 2px  #292a2e;
+    -webkit-box-shadow: 0 4px 4px 3px #3e3f41;
+    overflow: hidden;
+    
+}
+
+.item-box {
+    width: 62%;
+    background-color: #ffffff;
+    float: left;
+
+   
+}
+
+.greeting {
+    font-size: 35px;
+    font-weight: 390;
+    padding: 70px 55px;
+    letter-spacing: 2px;
+
+}
+
+.tooltip {
+    padding: 0px 55px;
+    color: #abb4c1;
+    padding-bottom: 55px;
+    margin-top: -55px;
+
+}
+
+.social-link-google {
+    padding: 17px 202px;
+    text-decoration: none;
+    color: #8b8b8c;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #eef0f3;
+    margin: 55px;
+    border-radius: 4px;
+    background: url(img/googleplus.svg)no-repeat;
+    background-position: 20px center;
+    background-size: 20px;
+
+}
+
+ .social-link-facebook{
+     padding: 17px 198px;
+     text-decoration: none;
+     color: #8b8b8c;
+     font-size: 12px;
+     font-weight: 600;
+     border: 1px solid #eef0f3;
+     margin: 55px;
+     border-radius: 4px;
+     background: url(img/facebook.svg)no-repeat;
+     background-position: 20px center;
+     background-size: 20px;
+}
+
+.social-link-twitter {
+    text-decoration: none;
+    padding: 17px 202px;
+    color: #8b8b8c;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #eef0f3;
+    margin: 55px;
+    border-radius: 4px;
+    background: url(img/twitter.svg)no-repeat;
+    background-position: 20px center;
+    background-size: 20px;
+
+
+}
+
+
+.footer-email {
+    float: right;
+    margin-top: 40px;
+    padding-right: 55px;
+    text-decoration: none;
+    color: #8b8b8c;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.footer-text {
+    float: left;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    margin-top: 40px;
+    padding-left: 55px;
+}
+
+.footer-box {
+    width: 100%;
+    border-top: 1px solid #f1f1f1;
+    margin-top: 100px;
+
+}
+
+.half-footer {
+    height: 20%;
+
+}
+
+.social-free {
+    line-height: 70px;
+}
+ 
+a:hover {
+    color: #292a2e;
+
+}
+
+a {
+    transition: all 0.5s ease;
+}
+
+.social-link-google:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.1)
+}
+
+.social-link-facebook:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.1)
+}
+
+.social-link-twitter:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.1)
+}
